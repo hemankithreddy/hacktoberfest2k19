@@ -1,55 +1,24 @@
-#include<conio.h>
-#include <stdio.h>
-#include<stdio.h>
+print("enter the  two digit number of your choice");
+x=int(input())
 
-
-int main()
-{
-    int num,ch;
-    printf("enter the  two digit number of your choice");
-    scanf("%d",&num);
-    while(ch!=2){
-    printf("This is the following menu options\n");
-    printf("----------1.Choose here for incrementing the number-----------------\n");
-    printf("----------2.Choose here for decrementing the number-------------------\n");
-    printf("----------3.EXIT THE PROGRAM----------------------------\n");
-    printf("enter the choice");
-    scanf("%d",&ch);
-    
-    switch(num) {
-        case 1: {
-            int res;
-            res=incr(num);
-            printf("the incremented number is %d\n",res);
-            break;
-        }
-        case 2:{
-            int res;
-            res=decr(num);
-            printf("the decremented number is %d\n",res);
-            break;
-            
-        }
-        case 3:{
-            exit(0);
-            break;
-        }
-    }
-    }       
-    
-
-    return 0;
-}
-
-int incr(int x)
-{
-     x=x+1;
-     return x;
-}
-int decr(int x)
-{
-    x=x-1;
-    return x;
-}
-
-
+print("This is the following menu options\n");
+print("----------1.Choose here for incrementing the number-----------------\n");
+print("----------2.Choose here for decrementing the number-------------------\n");
+print("----------3.EXIT THE PROGRAM----------------------------\n");
+print("enter the choice");
+y=int(input())
+def incr(x):
+      x=x+1
+      return x
+def decr(y):
+      y=y-2
+      return y
+if(y==1):
+      x=incr(x)
+      print(x)
+elif(y==2):
+      x=decr(x)
+      print(x)
+else:
+      sys.exit()
+      

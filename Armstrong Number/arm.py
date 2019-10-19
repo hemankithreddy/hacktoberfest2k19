@@ -15,3 +15,5 @@ if(x==y):
 	print('The entered number is an armstrong number")
 else:
 	print('The entered number is not an armstrong number")
+
+print("Thank you ACM--PESU ECC")

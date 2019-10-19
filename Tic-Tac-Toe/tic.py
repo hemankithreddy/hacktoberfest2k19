@@ -23,9 +23,9 @@ def player_input():
         marker = input('Player 1: Do you want to be X or O? ').upper()
 
     if marker == 'X':
+ 
 
-
-
+ 
 Leave a comment
 
 Attach files by dragging & dropping, selecting or pasting them.
